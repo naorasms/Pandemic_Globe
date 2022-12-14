@@ -1,0 +1,60 @@
+body{
+    height: 1000px;
+    color: #3a228a;
+    color: #ffcb21
+
+}
+.content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 970px;
+    width: 100%;
+    margin: auto;
+    color: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.logo img{
+  width: 30px;
+  height: 30px;  
+}
+ul{
+list-style-type: none;
+display: flex;
+gap: 2rem;
+margin-bottom: 3rem;
+
+}
+li{
+font-size: .9rem;
+font-weight: 500;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 20px);
+    position: absolute;
+}
+h1{
+    font-size: 3.25rem;
+    margin: 0;
+    width: 20ch;
+}
+p{
+    width: 55ch;
+    line-height: 1.5;
+}
+a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+/* filmOffset */
